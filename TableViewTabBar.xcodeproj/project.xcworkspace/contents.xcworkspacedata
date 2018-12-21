@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:APITableViewTabBar.xcodeproj">
+      location = "self:/Users/dam/Desktop/IOS/APITableViewTabBar/TableViewTabBar.xcodeproj">
    </FileRef>
 </Workspace>

@@ -14,6 +14,7 @@
 		330C817421CD122400E2695C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330C817221CD122400E2695C /* LaunchScreen.storyboard */; };
 		330C817F21CD122400E2695C /* APITableViewTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C817E21CD122400E2695C /* APITableViewTabBarTests.swift */; };
 		330C818A21CD122400E2695C /* APITableViewTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C818921CD122400E2695C /* APITableViewTabBarUITests.swift */; };
+		330C819821CD346100E2695C /* UITabBarCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C819721CD346100E2695C /* UITabBarCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		330C816621CD122200E2695C /* APITableViewTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APITableViewTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330C816621CD122200E2695C /* TableViewTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		330C816921CD122200E2695C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		330C816B21CD122200E2695C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		330C816E21CD122200E2695C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		330C817021CD122400E2695C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		330C817321CD122400E2695C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		330C817521CD122400E2695C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		330C817A21CD122400E2695C /* APITableViewTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APITableViewTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330C817A21CD122400E2695C /* TableViewTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330C817E21CD122400E2695C /* APITableViewTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITableViewTabBarTests.swift; sourceTree = "<group>"; };
 		330C818021CD122400E2695C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		330C818521CD122400E2695C /* APITableViewTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APITableViewTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330C818521CD122400E2695C /* TableViewTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		330C818921CD122400E2695C /* APITableViewTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITableViewTabBarUITests.swift; sourceTree = "<group>"; };
 		330C818B21CD122400E2695C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330C819721CD346100E2695C /* UITabBarCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +89,9 @@
 		330C816721CD122200E2695C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				330C816621CD122200E2695C /* APITableViewTabBar.app */,
-				330C817A21CD122400E2695C /* APITableViewTabBarTests.xctest */,
-				330C818521CD122400E2695C /* APITableViewTabBarUITests.xctest */,
+				330C816621CD122200E2695C /* TableViewTabBar.app */,
+				330C817A21CD122400E2695C /* TableViewTabBarTests.xctest */,
+				330C818521CD122400E2695C /* TableViewTabBarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 				330C817021CD122400E2695C /* Assets.xcassets */,
 				330C817221CD122400E2695C /* LaunchScreen.storyboard */,
 				330C817521CD122400E2695C /* Info.plist */,
+				330C819721CD346100E2695C /* UITabBarCustom.swift */,
 			);
 			path = APITableViewTabBar;
 			sourceTree = "<group>";
@@ -128,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		330C816521CD122200E2695C /* APITableViewTabBar */ = {
+		330C816521CD122200E2695C /* TableViewTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 330C818E21CD122400E2695C /* Build configuration list for PBXNativeTarget "APITableViewTabBar" */;
+			buildConfigurationList = 330C818E21CD122400E2695C /* Build configuration list for PBXNativeTarget "TableViewTabBar" */;
 			buildPhases = (
 				330C816221CD122200E2695C /* Sources */,
 				330C816321CD122200E2695C /* Frameworks */,
@@ -140,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = APITableViewTabBar;
+			name = TableViewTabBar;
 			productName = APITableViewTabBar;
-			productReference = 330C816621CD122200E2695C /* APITableViewTabBar.app */;
+			productReference = 330C816621CD122200E2695C /* TableViewTabBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		330C817921CD122400E2695C /* APITableViewTabBarTests */ = {
+		330C817921CD122400E2695C /* TableViewTabBarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 330C819121CD122400E2695C /* Build configuration list for PBXNativeTarget "APITableViewTabBarTests" */;
+			buildConfigurationList = 330C819121CD122400E2695C /* Build configuration list for PBXNativeTarget "TableViewTabBarTests" */;
 			buildPhases = (
 				330C817621CD122400E2695C /* Sources */,
 				330C817721CD122400E2695C /* Frameworks */,
@@ -158,14 +161,14 @@
 			dependencies = (
 				330C817C21CD122400E2695C /* PBXTargetDependency */,
 			);
-			name = APITableViewTabBarTests;
+			name = TableViewTabBarTests;
 			productName = APITableViewTabBarTests;
-			productReference = 330C817A21CD122400E2695C /* APITableViewTabBarTests.xctest */;
+			productReference = 330C817A21CD122400E2695C /* TableViewTabBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		330C818421CD122400E2695C /* APITableViewTabBarUITests */ = {
+		330C818421CD122400E2695C /* TableViewTabBarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 330C819421CD122400E2695C /* Build configuration list for PBXNativeTarget "APITableViewTabBarUITests" */;
+			buildConfigurationList = 330C819421CD122400E2695C /* Build configuration list for PBXNativeTarget "TableViewTabBarUITests" */;
 			buildPhases = (
 				330C818121CD122400E2695C /* Sources */,
 				330C818221CD122400E2695C /* Frameworks */,
@@ -176,9 +179,9 @@
 			dependencies = (
 				330C818721CD122400E2695C /* PBXTargetDependency */,
 			);
-			name = APITableViewTabBarUITests;
+			name = TableViewTabBarUITests;
 			productName = APITableViewTabBarUITests;
-			productReference = 330C818521CD122400E2695C /* APITableViewTabBarUITests.xctest */;
+			productReference = 330C818521CD122400E2695C /* TableViewTabBarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 330C816121CD122200E2695C /* Build configuration list for PBXProject "APITableViewTabBar" */;
+			buildConfigurationList = 330C816121CD122200E2695C /* Build configuration list for PBXProject "TableViewTabBar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				330C816521CD122200E2695C /* APITableViewTabBar */,
-				330C817921CD122400E2695C /* APITableViewTabBarTests */,
-				330C818421CD122400E2695C /* APITableViewTabBarUITests */,
+				330C816521CD122200E2695C /* TableViewTabBar */,
+				330C817921CD122400E2695C /* TableViewTabBarTests */,
+				330C818421CD122400E2695C /* TableViewTabBarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330C819821CD346100E2695C /* UITabBarCustom.swift in Sources */,
 				330C816C21CD122200E2695C /* ViewController.swift in Sources */,
 				330C816A21CD122200E2695C /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		330C817C21CD122400E2695C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 330C816521CD122200E2695C /* APITableViewTabBar */;
+			target = 330C816521CD122200E2695C /* TableViewTabBar */;
 			targetProxy = 330C817B21CD122400E2695C /* PBXContainerItemProxy */;
 		};
 		330C818721CD122400E2695C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 330C816521CD122200E2695C /* APITableViewTabBar */;
+			target = 330C816521CD122200E2695C /* TableViewTabBar */;
 			targetProxy = 330C818621CD122400E2695C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APITableViewTabBar.app/APITableViewTabBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTabBar.app/TableViewTabBar";
 			};
 			name = Debug;
 		};
@@ -498,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APITableViewTabBar.app/APITableViewTabBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTabBar.app/TableViewTabBar";
 			};
 			name = Release;
 		};
@@ -543,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		330C816121CD122200E2695C /* Build configuration list for PBXProject "APITableViewTabBar" */ = {
+		330C816121CD122200E2695C /* Build configuration list for PBXProject "TableViewTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				330C818C21CD122400E2695C /* Debug */,
@@ -552,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		330C818E21CD122400E2695C /* Build configuration list for PBXNativeTarget "APITableViewTabBar" */ = {
+		330C818E21CD122400E2695C /* Build configuration list for PBXNativeTarget "TableViewTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				330C818F21CD122400E2695C /* Debug */,
@@ -561,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		330C819121CD122400E2695C /* Build configuration list for PBXNativeTarget "APITableViewTabBarTests" */ = {
+		330C819121CD122400E2695C /* Build configuration list for PBXNativeTarget "TableViewTabBarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				330C819221CD122400E2695C /* Debug */,
@@ -570,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		330C819421CD122400E2695C /* Build configuration list for PBXNativeTarget "APITableViewTabBarUITests" */ = {
+		330C819421CD122400E2695C /* Build configuration list for PBXNativeTarget "TableViewTabBarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				330C819521CD122400E2695C /* Debug */,
