@@ -15,6 +15,10 @@
 		330C817F21CD122400E2695C /* APITableViewTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C817E21CD122400E2695C /* APITableViewTabBarTests.swift */; };
 		330C818A21CD122400E2695C /* APITableViewTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C818921CD122400E2695C /* APITableViewTabBarUITests.swift */; };
 		330C819821CD346100E2695C /* UITabBarCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C819721CD346100E2695C /* UITabBarCustom.swift */; };
+		FA622DA021CE42D5000181DA /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA622D9F21CE42D5000181DA /* Pokemon.swift */; };
+		FA622DA221CE438C000181DA /* ViewControllerPokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA622DA121CE438C000181DA /* ViewControllerPokedex.swift */; };
+		FA622DA421CE43A3000181DA /* TableViewCellPokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA622DA321CE43A3000181DA /* TableViewCellPokedex.swift */; };
+		FA622DA621CE49F6000181DA /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA622DA521CE49F6000181DA /* Tools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		330C818921CD122400E2695C /* APITableViewTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITableViewTabBarUITests.swift; sourceTree = "<group>"; };
 		330C818B21CD122400E2695C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		330C819721CD346100E2695C /* UITabBarCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarCustom.swift; sourceTree = "<group>"; };
+		FA622D9F21CE42D5000181DA /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		FA622DA121CE438C000181DA /* ViewControllerPokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPokedex.swift; sourceTree = "<group>"; };
+		FA622DA321CE43A3000181DA /* TableViewCellPokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPokedex.swift; sourceTree = "<group>"; };
+		FA622DA521CE49F6000181DA /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		330C815D21CD122200E2695C = {
 			isa = PBXGroup;
 			children = (
+				FA622DA521CE49F6000181DA /* Tools.swift */,
+				FA622DA321CE43A3000181DA /* TableViewCellPokedex.swift */,
+				FA622DA121CE438C000181DA /* ViewControllerPokedex.swift */,
+				FA622D9F21CE42D5000181DA /* Pokemon.swift */,
 				330C816821CD122200E2695C /* APITableViewTabBar */,
 				330C817D21CD122400E2695C /* APITableViewTabBarTests */,
 				330C818821CD122400E2695C /* APITableViewTabBarUITests */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA622DA421CE43A3000181DA /* TableViewCellPokedex.swift in Sources */,
 				330C819821CD346100E2695C /* UITabBarCustom.swift in Sources */,
+				FA622DA021CE42D5000181DA /* Pokemon.swift in Sources */,
+				FA622DA221CE438C000181DA /* ViewControllerPokedex.swift in Sources */,
+				FA622DA621CE49F6000181DA /* Tools.swift in Sources */,
 				330C816C21CD122200E2695C /* ViewController.swift in Sources */,
 				330C816A21CD122200E2695C /* AppDelegate.swift in Sources */,
 			);
